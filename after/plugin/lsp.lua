@@ -30,6 +30,8 @@ lsp.configure('sumneko_lua', {
     }
 })
 
+lsp.configure('ols',{})
+
 lsp.configure('rust-analyzer', {
   settings = {
     procMacro = {

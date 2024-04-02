@@ -45,3 +45,8 @@ lsp_config.rust_analyzer.setup({
     }
 })
 
+vim.filetype.add({
+  extension = {
+    odin = "odin"
+  }
+})
